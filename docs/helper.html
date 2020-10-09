@@ -111,40 +111,6 @@ nb_path: "00_helper.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_eq</span><span class="p">(</span><span class="n">count_tags</span><span class="p">(</span><span class="n">spacy_data</span><span class="p">),</span> <span class="p">{</span><span class="s1">&#39;PERSON&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;LOC&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">})</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_eq</span><span class="p">(</span><span class="n">count_tags</span><span class="p">([(</span><span class="s2">&quot;Who is Shaka Khan?&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;entities&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="s2">&quot;PERSON&quot;</span><span class="p">)]}),]),</span> <span class="p">{</span><span class="s1">&#39;PERSON&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">evaluate</span><span class="p">(</span><span class="n">ner_model</span><span class="p">,</span> <span class="n">examples</span><span class="p">):</span>
     <span class="n">scorer</span> <span class="o">=</span> <span class="n">Scorer</span><span class="p">()</span>
     <span class="k">for</span> <span class="n">input_</span><span class="p">,</span> <span class="n">annot</span> <span class="ow">in</span> <span class="n">examples</span><span class="p">:</span>
