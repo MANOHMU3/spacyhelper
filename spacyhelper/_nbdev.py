@@ -2,7 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"count_tags": "00_helper.ipynb"}
+index = {"count_tags": "00_helper.ipynb",
+         "evaluate": "00_helper.ipynb"}
 
 modules = ["helper.py"]
 

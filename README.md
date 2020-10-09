@@ -4,13 +4,13 @@
 
 This file will become your README and also the index of your documentation.
 
-## Install
+## Install (Not ready yet)
 
 `pip install spacyhelper`
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+`from spacyhelper.helper import evaluate, count_tags`
 
 ```python
 1+1
